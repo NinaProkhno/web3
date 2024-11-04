@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zajęcia 2a - Formularz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <a href="index.html" class="back-button">Powrót do strony głównej</a>
+    <h1>Formularz</h1>
+    <form>
+        <label>Imię: <input type="text" name="imie" required></label>
+        <label>Nazwisko: <input type="text" name="nazwisko" required></label>
+        <label>Ulica: <input type="text" name="ulica" required></label>
+        <label>Numer domu: <input type="text" name="dom" required></label>
+        <label>Numer mieszkania: <input type="text" name="mieszkanie"></label>
+        <label>Miasto: <input type="text" name="miasto" required></label>
+
+        <div class="radio-group">
+            <label>Płeć:</label>
+            <label><input type="radio" name="plec" value="mężczyzna"> Mężczyzna</label>
+            <label><input type="radio" name="plec" value="kobieta"> Kobieta</label>
+        </div>
+
+        <div class="checkbox-group">
+            <label>Czy posiadasz prawo jazdy:
+                <input type="checkbox" name="prawojazdy">
+            </label>
+        </div>
+
+        <label>Województwo: <input type="text" name="wojewodztwo"></label>
+        <label>Uwagi: <textarea name="uwagi"></textarea></label>
+        <label>Data urodzenia: <input type="date" name="data"></label>
+        <label>Numer telefonu: <input type="tel" name="telefon"></label>
+        
+        <button type="submit">Wyślij</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,187 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    text-align: left; /* Change to 'center' if needed */
+    margin-bottom: 20px;
+}
+
+/* Container */
+#top {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header */
+#NAGLOWEK {
+    background-color: #888;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Sidebar styles */
+#MENU, #INFORMACJE {
+    width: 200px;
+    padding: 15px;
+    background-color: #ccc;
+    color: #333;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+#MENU {
+    float: left;
+    margin-right: 20px;
+}
+
+#INFORMACJE {
+    float: right;
+    margin-left: 20px;
+}
+
+/* Main Content */
+#TRESC {
+    margin: 0 220px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    color: #333;
+}
+
+/* Footer */
+#STOPKA {
+    clear: both;
+    background-color: #888;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 0 0 8px 8px;
+    margin-top: 20px;
+}
+
+/* Column layouts */
+.column-layout {
+    column-gap: 20px;
+}
+
+.one-column { column-count: 1; }
+.two-column { column-count: 2; }
+.three-column { column-count: 3; }
+.four-column { column-count: 4; }
+
+/* Form styling */
+form {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #555;
+}
+
+/* Input, textarea, button styling */
+input[type="text"], 
+input[type="date"], 
+input[type="tel"], 
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="radio"], 
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Button styling */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #5a67d8;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #434190;
+}
+
+/* Gallery styling */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    width: 30%;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* General button styling */
+.back-button {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
